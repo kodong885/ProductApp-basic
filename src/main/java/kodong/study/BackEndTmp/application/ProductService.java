@@ -29,7 +29,7 @@ public class ProductService {
                 price,
                 amount
         );
-        // 2. productDTO를 products에 저장
+        // 2. product를 products에 저장
         savedProduct = listProductRepository.add(product);
 
         id = savedProduct.getId();
